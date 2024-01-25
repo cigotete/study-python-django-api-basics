@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # Local
     "todos.apps.TodosConfig",
     "accounts.apps.AccountsConfig",
+    "posts.apps.PostsConfig",
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser"
