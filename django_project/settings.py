@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     "corsheaders",
     # Local
     "todos.apps.TodosConfig",
+    "accounts.apps.AccountsConfig",
 ]
+
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
