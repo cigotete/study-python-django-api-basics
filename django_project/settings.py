@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     # 3rd party
     "rest_framework",
+    "rest_framework_api_key",
     "corsheaders",
     "rest_framework.authtoken",
     "allauth",# Related with django-allauth
