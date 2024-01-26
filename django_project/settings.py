@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     "todos.apps.TodosConfig",
     "accounts.apps.AccountsConfig",
     "posts.apps.PostsConfig",
+    "books.apps.BooksConfig",
 ]
 
 REST_FRAMEWORK = {
