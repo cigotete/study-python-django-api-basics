@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     # 3rd party
     "rest_framework",
-    "rest_framework_api_key",
+    "rest_framework_api_key", #api key
     "corsheaders",
     "rest_framework.authtoken",
     "allauth",# Related with django-allauth
@@ -56,7 +56,7 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.AllowAny",
+        "rest_framework_api_key.permissions.HasAPIKey",
     ],
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework.authentication.SessionAuthentication",
