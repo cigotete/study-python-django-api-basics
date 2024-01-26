@@ -9,6 +9,7 @@ djangorestframework = "~=3.13.0"
 django-cors-headers = "~=3.10.0"
 dj-rest-auth = "==2.1.11"
 django-allauth = "~=0.48.0"
+djangorestframework-api-key = "==3.*"
 
 [dev-packages]
 
